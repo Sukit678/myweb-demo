@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="th">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>เกี่ยวกับ — MyComicReader</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="index.html">MyComicReader</a>
+    <nav><a href="index.html">กลับหน้าอ่าน</a></nav>
+  </header>
+
+  <main class="content about">
+    <h1>เกี่ยวกับ MyComicReader</h1>
+    <p>เว็บตัวอย่างสำหรับอ่านการ์ตูนแบบไฟล์ภาพ แยกเป็นโฟลเดอร์ตามชื่อการ์ตูน/ตอน แล้วตั้งชื่อไฟล์หน้าเป็นตัวเลข (1.jpg, 2.jpg ...)</p>
+    <h3>การใช้งานอย่างรวดเร็ว</h3>
+    <ol>
+      <li วางโฟลเดอร์การ์ตูนในโฟลเดอร์ <code>/comics/</code> เช่น <code>/comics/my-manga/1.jpg</code></li>
+      <li แก้ข้อมูลในไฟล์ <code>script.js</code> (ตัวแปร <code>comicsData</code>) เพื่อเพิ่มชื่อ/จำนวนหน้า/slug</li>
+      <li เปิด <code>index.html</code> ในเบราว์เซอร์</li>
+    </ol>
+    <p>ฟังก์ชัน: เลือกตอน, ปุ่มก่อน/ถัดไป, คีย์บอร์ด ← →, แตะ/ปัดบนมือถือ, โหมดเต็มจอ</p>
+  </main>
+
+  <footer class="footer">
+    <small>MyComicReader — ตัวอย่างการใช้งาน</small>
+  </footer>
+</body>
+</html>
